@@ -12,4 +12,14 @@
   <ItemGroup>
     <ProjectReference Include="..\Petfolio.Communication\Petfolio.Communication.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="UseCases\" />
+    <None Remove="UseCases\Pet\" />
+    <None Remove="UseCases\Pet\Register\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\Pet\" />
+    <Folder Include="UseCases\Pet\Register\" />
+  </ItemGroup>
 </Project>
