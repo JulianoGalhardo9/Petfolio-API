@@ -14,12 +14,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="UseCases\" />
-    <None Remove="UseCases\Pet\" />
-    <None Remove="UseCases\Pet\Register\" />
+    <None Remove="UseCases\Pets\" />
+    <None Remove="UseCases\Pets\Update\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UseCases\" />
-    <Folder Include="UseCases\Pet\" />
-    <Folder Include="UseCases\Pet\Register\" />
+    <Folder Include="UseCases\Pets\" />
+    <Folder Include="UseCases\Pets\Update\" />
   </ItemGroup>
 </Project>
