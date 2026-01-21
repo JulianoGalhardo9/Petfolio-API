@@ -17,11 +17,15 @@
     <None Remove="UseCases\Pets\" />
     <None Remove="UseCases\Pets\Update\" />
     <None Remove="UseCases\Pets\GetAll\" />
+    <None Remove="UseCases\Pets\GetById\" />
+    <None Remove="UseCases\Pets\Delete\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UseCases\" />
     <Folder Include="UseCases\Pets\" />
     <Folder Include="UseCases\Pets\Update\" />
     <Folder Include="UseCases\Pets\GetAll\" />
+    <Folder Include="UseCases\Pets\GetById\" />
+    <Folder Include="UseCases\Pets\Delete\" />
   </ItemGroup>
 </Project>
